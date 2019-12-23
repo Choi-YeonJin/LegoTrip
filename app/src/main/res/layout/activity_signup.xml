@@ -20,61 +20,131 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="-29dp"
         tools:layout_editor_absoluteY="16dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp">
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="80dp"
             android:text="LegoTrip\n가입하기"
-            android:textSize="40sp"
+            android:fontFamily="@font/nanumgothic"
+            android:textSize="50sp"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="55dp"
             android:text="아이디"
+            android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="15dp"
+            android:textSize="20dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="13dp" />
+            android:fontFamily="@font/nanumgothic"
+            android:textSize="17dp" />
 
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="35dp"
             android:text="비밀번호"
+            android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="15dp"
+            android:textSize="20dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="13dp" />
+            android:fontFamily="@font/nanumgothic"
+            android:textSize="17dp" />
 
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="35dp"
             android:text="이름"
+            android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="15dp"
+            android:textSize="20dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumgothic"
             android:text="사용하실 이름을 입력해주세요."
             android:textColor="#9E9E9E"
-            android:textSize="13dp" />
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/nanumgothic"
+            android:text="성별"
+            android:textColor="#707070"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="@font/nanumgothic"
+                android:text="여성"
+                android:background="@drawable/genderbtn"/>
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="230dp"
+                android:fontFamily="@font/nanumgothic"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="남성"
+                android:background="@drawable/genderbtn"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="생년월일"
+            android:textColor="#707070"
+            android:fontFamily="@font/nanumgothic"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ex) 2000.01.01"
+            android:fontFamily="@font/nanumgothic"
+            android:textColor="#9E9E9E"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nanumgothic"
+            android:text="회원가입"
+            android:textSize="25sp"
+            android:background="@drawable/darkbtn_round"
+            android:textColor="@color/textcolor"/>
+
 
     </LinearLayout>
 
