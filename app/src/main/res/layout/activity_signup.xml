@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
+    android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:id="@+id/back"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
         android:src="@drawable/back"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="10dp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/nanumgothic"
+        android:text="LegoTrip\n가입하기"
+        android:textSize="60sp"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,26 +30,17 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="-29dp"
         tools:layout_editor_absoluteY="16dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:text="LegoTrip\n가입하기"
-            android:fontFamily="@font/nanumgothic"
-            android:textSize="50sp"
-            tools:ignore="MissingConstraints" />
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp">
 
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="65dp"
             android:text="아이디"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="20dp"
+            android:textSize="21dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -51,11 +52,11 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="45dp"
             android:text="비밀번호"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="20dp"
+            android:textSize="21dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -67,11 +68,11 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="45dp"
             android:text="이름"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
-            android:textSize="20dp"
+            android:textSize="21dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -85,11 +86,11 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="45dp"
             android:fontFamily="@font/nanumgothic"
             android:text="성별"
             android:textColor="#707070"
-            android:textSize="20dp"
+            android:textSize="21dp"
             tools:ignore="MissingConstraints" />
 
         <LinearLayout
@@ -98,7 +99,7 @@
             android:layout_marginTop="10dp">
 
             <Button
-                android:layout_width="230dp"
+                android:layout_width="220dp"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:fontFamily="@font/nanumgothic"
@@ -107,7 +108,7 @@
 
             <Button
                 android:layout_marginLeft="10dp"
-                android:layout_width="230dp"
+                android:layout_width="220dp"
                 android:fontFamily="@font/nanumgothic"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -119,11 +120,11 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="45dp"
             android:text="생년월일"
             android:textColor="#707070"
             android:fontFamily="@font/nanumgothic"
-            android:textSize="20dp"
+            android:textSize="21dp"
             tools:ignore="MissingConstraints" />
 
         <EditText
@@ -135,10 +136,10 @@
             android:textSize="17dp" />
 
         <Button
-            android:id="@+id/loginBtn"
+            android:id="@+id/signup_signupBtn"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="45dp"
             android:fontFamily="@font/nanumgothic"
             android:text="회원가입"
             android:textSize="25sp"
@@ -148,4 +149,4 @@
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
