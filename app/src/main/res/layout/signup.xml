@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="70dp"
+            android:text="LegoTrip\n가입하기"
+            android:textSize="40sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="아이디"
+            android:textColor="#707070"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="비밀번호"
+            android:textColor="#707070"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="이름"
+            android:textColor="#707070"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용하실 이름을 입력해주세요."
+            android:textColor="#9E9E9E"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
