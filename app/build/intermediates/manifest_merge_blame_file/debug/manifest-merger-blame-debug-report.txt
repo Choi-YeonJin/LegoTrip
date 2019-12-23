@@ -11,7 +11,7 @@
 9-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:5:5-20:19
 12        android:allowBackup="true"
 12-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,21 +25,23 @@
 17-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.legotrip.MainActivity" >
-21-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:12:19-47
+19        android:theme="@style/AppTheme" >
+19-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.legotrip.SignupActivity" />
+20-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:12:9-61
+20-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:12:19-49
+21        <activity android:name="com.example.legotrip.LoginActivity" >
+21-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:13:9-19:20
+21-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:13:19-48
 22            <intent-filter>
-22-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:13:13-17:29
+22-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:14:13-18:29
 23                <action android:name="android.intent.action.MAIN" />
-23-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:14:25-66
+23-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:15:17-69
+23-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:15:25-66
 24
 25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:16:27-74
+25-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:17:17-77
+25-->C:\CookAndroid\LegoTrip\app\src\main\AndroidManifest.xml:17:27-74
 26            </intent-filter>
 27        </activity>
 28    </application>
