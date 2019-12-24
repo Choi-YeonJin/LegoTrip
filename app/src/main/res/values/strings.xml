@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LegoTrip</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_plan">Plan</string>
+    <string name="title_reservation">Reservation</string>
+    <string name="title_main">Main</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_setting">Setting</string>
 </resources>
