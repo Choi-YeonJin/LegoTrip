@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="130dp"
         android:layout_marginTop="85dp"
         android:fontFamily="@font/nanumgothic"
         android:text="LegoTrip\n가입하기"
@@ -30,13 +30,14 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="-29dp"
         tools:layout_editor_absoluteY="16dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="100dp">
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="65dp"
+            android:layout_marginTop="80dp"
             android:text="아이디"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
@@ -52,7 +53,7 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="58dp"
             android:text="비밀번호"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
@@ -68,7 +69,7 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="58dp"
             android:text="이름"
             android:fontFamily="@font/nanumgothic"
             android:textColor="#707070"
@@ -86,7 +87,7 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="55dp"
             android:fontFamily="@font/nanumgothic"
             android:text="성별"
             android:textColor="#707070"
@@ -96,10 +97,10 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="15dp">
 
             <Button
-                android:layout_width="220dp"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:fontFamily="@font/nanumgothic"
@@ -108,7 +109,7 @@
 
             <Button
                 android:layout_marginLeft="10dp"
-                android:layout_width="220dp"
+                android:layout_width="250dp"
                 android:fontFamily="@font/nanumgothic"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
@@ -120,7 +121,7 @@
         <TextView
             android:layout_width="146dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="58dp"
             android:text="생년월일"
             android:textColor="#707070"
             android:fontFamily="@font/nanumgothic"
@@ -139,7 +140,7 @@
             android:id="@+id/signup_signupBtn"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="70dp"
             android:fontFamily="@font/nanumgothic"
             android:text="회원가입"
             android:textSize="25sp"

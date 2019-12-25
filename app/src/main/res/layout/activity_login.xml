@@ -7,12 +7,14 @@
     android:layout_height="match_parent"
     android:padding="90dp"
     android:background="@color/white"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp">
 
     <ImageView
         android:id="@+id/name"
-        android:layout_width="221dp"
-        android:layout_height="201dp"
+        android:layout_width="224dp"
+        android:layout_height="220dp"
         android:layout_marginTop="6dp"
         android:fontFamily="@font/nanumgothic"
         android:src="@drawable/logo"

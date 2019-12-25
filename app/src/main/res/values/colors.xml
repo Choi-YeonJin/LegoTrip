@@ -7,4 +7,5 @@
     <color name="textcolor">#707070</color>
     <color name="maincolor">#7B82FF</color>
     <color name="loginbackcolor">#DFDFDF</color>
+    <color name="black">#000000</color>
 </resources>
