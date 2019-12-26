@@ -5,11 +5,14 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/maincolor</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/maincolor</item>
 
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/maincolor</item>
+    </style>
 
 </resources>
