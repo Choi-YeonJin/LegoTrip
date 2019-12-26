@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/bar_background"
-        android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
@@ -29,7 +28,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="690dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/white"
             android:src="@drawable/check" />
 
@@ -49,7 +48,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="170dp"
-            android:background="#A8FFFFFF"
+            android:background="@drawable/diary_title_background"
             tools:ignore="MissingConstraints"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"

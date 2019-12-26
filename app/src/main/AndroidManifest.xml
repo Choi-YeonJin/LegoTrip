@@ -20,8 +20,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".Dairy2Activity" />
-        <activity android:name=".Dairy1Activity" />
+        <activity android:name=".Diary2Activity" />
+        <activity android:name=".Diary1Activity" />
+        <activity android:name=".Diary3Activity" />
     </application>
 
 </manifest>

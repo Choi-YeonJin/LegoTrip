@@ -3,7 +3,7 @@ package com.example.legotrip;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Dairy2Activity extends Activity {
+public class Diary2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

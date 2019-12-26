@@ -80,7 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nanumgothic"
-            android:text="사용하실 이름을 입력해주세요."
+            android:hint="사용하실 이름을 입력해주세요."
             android:textColor="#9E9E9E"
             android:textSize="17dp" />
 
@@ -122,7 +122,7 @@
             android:layout_width="146dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="58dp"
-            android:text="생년월일"
+            android:hint="생년월일"
             android:textColor="#707070"
             android:fontFamily="@font/nanumgothic"
             android:textSize="21dp"

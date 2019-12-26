@@ -11,7 +11,7 @@
 9-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:5:5-25:19
+11-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
 12-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,23 +54,26 @@
 31        <activity android:name="com.example.legotrip.SignupActivity" />
 31-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:22:9-52
 31-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:22:19-49
-32        <activity android:name="com.example.legotrip.Dairy2Activity" />
+32        <activity android:name="com.example.legotrip.Diary2Activity" />
 32-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:23:9-52
 32-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:23:19-49
-33        <activity android:name="com.example.legotrip.Dairy1Activity" />
+33        <activity android:name="com.example.legotrip.Diary1Activity" />
 33-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:24:9-52
 33-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:24:19-49
-34
-35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-37            android:authorities="com.example.legotrip.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-40    </application>
-41
-42</manifest>
+34        <activity android:name="com.example.legotrip.Diary3Activity" />
+34-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:25:9-52
+34-->C:\CookAndroid\Project\LegoTrip\app\src\main\AndroidManifest.xml:25:19-49
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.example.legotrip.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>

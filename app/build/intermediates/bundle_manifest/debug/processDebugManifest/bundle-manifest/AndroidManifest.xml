@@ -29,8 +29,9 @@
         <activity android:name="com.example.legotrip.LoginActivity" />
         <activity android:name="com.example.legotrip.MainActivity" />
         <activity android:name="com.example.legotrip.SignupActivity" />
-        <activity android:name="com.example.legotrip.Dairy2Activity" />
-        <activity android:name="com.example.legotrip.Dairy1Activity" />
+        <activity android:name="com.example.legotrip.Diary2Activity" />
+        <activity android:name="com.example.legotrip.Diary1Activity" />
+        <activity android:name="com.example.legotrip.Diary3Activity" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
