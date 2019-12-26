@@ -1032,6 +1032,7 @@ drawable button_round
 drawable check
 drawable coverbtn
 drawable darkbtn_round
+drawable datepicker
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1350,7 +1351,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_dairy1
+layout activity_diary1
 layout activity_diary2
 layout activity_home
 layout activity_login

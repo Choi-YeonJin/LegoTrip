@@ -30,6 +30,7 @@
         <activity android:name="com.example.legotrip.MainActivity" />
         <activity android:name="com.example.legotrip.SignupActivity" />
         <activity android:name="com.example.legotrip.Dairy2Activity" />
+        <activity android:name="com.example.legotrip.Dairy1Activity" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
