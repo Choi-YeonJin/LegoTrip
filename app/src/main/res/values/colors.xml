@@ -9,4 +9,5 @@
     <color name="loginbackcolor">#DFDFDF</color>
     <color name="black">#000000</color>
     <color name="barlinecolor">#E0E1E2</color>
+    <color name="ListLineColor">#f0f3f4</color>
 </resources>

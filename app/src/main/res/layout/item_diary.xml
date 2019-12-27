@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/list_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:textSize="24dp"
+            android:text="Diary 이름"
+            android:fontFamily="@font/nanumgothic"
+            android:id="@+id/name"
+            android:layout_marginBottom="7dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:textSize="13dp"
+            android:fontFamily="@font/nanumgothic"
+            android:text="여행 다녀온 날짜"
+            android:id="@+id/info"
+            android:layout_marginBottom="2dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nanumgothic"
+            android:text="수정"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/nanumgothic"
+            android:text="삭제"/>
+
+    </LinearLayout>
+
+</LinearLayout>
