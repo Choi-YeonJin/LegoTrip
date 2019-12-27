@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.legotrip.HomeInfoAddActivity" />
+        <activity android:name="com.example.legotrip.EditUserActivity" />
+        <activity android:name="com.example.legotrip.HomeRegistActivity" />
         <activity android:name="com.example.legotrip.HomeActivity" />
         <activity android:name="com.example.legotrip.SplashActivity" >
             <intent-filter>
@@ -32,6 +35,7 @@
         <activity android:name="com.example.legotrip.Diary2Activity" />
         <activity android:name="com.example.legotrip.Diary1Activity" />
         <activity android:name="com.example.legotrip.Diary3Activity" />
+        <activity android:name="com.example.legotrip.Plan1Activity" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

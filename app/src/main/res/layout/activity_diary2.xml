@@ -74,6 +74,7 @@
                 android:hint="  다이어리의 제목을 입력해주세요."
                 android:textColorHint="@color/textcolor"
                 android:background="@drawable/border"
+                android:textColor="@color/textcolor"
             />
 
             <Button

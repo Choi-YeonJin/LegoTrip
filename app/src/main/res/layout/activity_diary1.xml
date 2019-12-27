@@ -5,10 +5,10 @@
 
     <LinearLayout
         android:layout_width="550dp"
-        android:layout_height="700dp"
+        android:layout_height="800dp"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/button_round">
 
         <TextView
@@ -48,6 +48,14 @@
             android:calendarViewShown="false"
             android:datePickerMode="spinner" />
 
+        <Button
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_round"
+            android:text="날짜 선택 완료"
+            android:textSize="20dp"
+            android:layout_marginLeft="150dp"/>
     </LinearLayout>
 
 

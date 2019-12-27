@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"/>
+        <activity android:name=".HomeInfoAddActivity"></activity>
+        <activity android:name=".EditUserActivity" />
+        <activity android:name=".HomeRegistActivity" />
+        <activity android:name=".HomeActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +26,7 @@
         <activity android:name=".Diary2Activity" />
         <activity android:name=".Diary1Activity" />
         <activity android:name=".Diary3Activity" />
+        <activity android:name=".Plan1Activity" />
     </application>
 
 </manifest>

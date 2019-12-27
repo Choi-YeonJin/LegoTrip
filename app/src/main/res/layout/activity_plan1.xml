@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bar_background"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/back" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1125dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="계획\n추가하기"
+                android:fontFamily="@font/nanumgothic"
+                android:textSize="60dp"
+                android:layout_marginTop="85dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="제목"
+                    android:fontFamily="@font/nanumgothic"
+                    android:textSize="30dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="여행의 제목을 입력해주세요."
+                    android:fontFamily="@font/nanumgothic"
+                    android:textColor="@color/textcolor"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="여행 날짜"
+                android:fontFamily="@font/nanumgothic"
+                android:textSize="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:background="@drawable/tripdate">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textcolor"
+                        android:text="여행 시작일"
+                        android:textSize="22dp"
+                        android:fontFamily="@font/nanumgothic"
+                        android:layout_marginRight="20dp"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nanumgothic"
+                        android:textSize="15dp"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <ImageButton
+                        android:id="@+id/dateBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/calendar" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" ~ "
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:background="@drawable/tripdate">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textcolor"
+                        android:text="여행 종료일"
+                        android:textSize="22dp"
+                        android:fontFamily="@font/nanumgothic"
+                        android:layout_marginRight="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nanumgothic"
+                        android:textSize="15dp"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/calendar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="할 일"
+                    android:fontFamily="@font/nanumgothic"
+                    android:textSize="30dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plus"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="480dp"
+                    android:layout_marginTop="35dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/tripdate">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="날짜"
+                        android:textSize="20dp"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/tripdate">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/nanumgothic"
+                            android:text="선택한 날짜"
+                            android:textColor="@color/textcolor"
+                            android:textSize="15dp"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nanumgothic"
+                            android:textSize="15dp"/>
+
+                        <ImageButton
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:adjustViewBounds="true"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/calendar" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="시간"
+                        android:textSize="20dp"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/tripdate">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/nanumgothic"
+                            android:text="시작 시간"
+                            android:textColor="@color/textcolor"
+                            android:textSize="15dp"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nanumgothic"
+                            android:textSize="15dp"/>
+
+                        <ImageButton
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:adjustViewBounds="true"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/clock" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text=" ~ "
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/tripdate">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/nanumgothic"
+                            android:text="종료 시간"
+                            android:textColor="@color/textcolor"
+                            android:textSize="15dp"
+                            android:padding="5dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nanumgothic"
+                            android:textSize="15dp"/>
+
+                        <ImageButton
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="20dp"
+                            android:adjustViewBounds="true"
+                            android:background="@color/white"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/clock" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="내용"
+                            android:fontFamily="@font/nanumgothic"
+                            android:textSize="20dp"/>
+
+                        <EditText
+                            android:layout_width="560dp"
+                            android:layout_height="75dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/tripdate"
+                            android:fontFamily="@font/nanumgothic"
+                            android:hint=" 내용을 입력해주세요."
+                            android:textSize="15dp"
+                            android:textColorHint="@color/textcolor"
+                            android:textColor="@color/textcolor"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconSize="50dp"/>
+
+</LinearLayout>

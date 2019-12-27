@@ -68,13 +68,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="제목"
+                android:fontFamily="@font/nanumgothic"
                 android:textSize="30dp"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="제목을 입력해주세요."
+                android:fontFamily="@font/nanumgothic"
                 android:textSize="25dp"
+                android:textColor="@color/textcolor"
                 android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
@@ -88,13 +91,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="설명"
+                android:fontFamily="@font/nanumgothic"
                 android:textSize="30dp"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="다이어리에 대한 설명을 입력해주세요."
+                android:fontFamily="@font/nanumgothic"
                 android:textSize="25dp"
+                android:textColor="@color/textcolor"
                 android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
@@ -109,6 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="다이어리 내용"
+                android:fontFamily="@font/nanumgothic"
                 android:textSize="30dp"/>
 
             <EditText
@@ -117,7 +124,8 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/border"
                 android:fontFamily="@font/nanumgothic"
-                android:textColorHint="@color/textcolor" />
+                android:textColorHint="@color/textcolor"
+                android:textColor="@color/textcolor"/>
 
         </LinearLayout>
 
@@ -136,6 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="사진 첨부"
+                    android:fontFamily="@font/nanumgothic"
                     android:textSize="30dp"/>
 
                 <ImageView
@@ -151,6 +160,7 @@
                 android:layout_height="wrap_content"
                 android:text=" 작성완료"
                 android:textSize="20dp"
+                android:fontFamily="@font/nanumgothic"
                 android:background="@drawable/button_round"
                 android:layout_marginLeft="450dp"/>
 
